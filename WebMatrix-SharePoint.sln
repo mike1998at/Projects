@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SharePoint", "http://localhost:10583", "{A066A540-AD29-437E-B75B-A45C0DE4F93B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_10583"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\SharePoint\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10583\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_10583"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\SharePoint\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10583\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\SharePoint\"
+		ProjOutputReferences = "{815CD5DF-2514-401D-AAC5-74324B308E90}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SilverlightProject1", "SilverlightProject1\SilverlightProject1.vbproj", "{815CD5DF-2514-401D-AAC5-74324B308E90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A066A540-AD29-437E-B75B-A45C0DE4F93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A066A540-AD29-437E-B75B-A45C0DE4F93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A066A540-AD29-437E-B75B-A45C0DE4F93B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A066A540-AD29-437E-B75B-A45C0DE4F93B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{815CD5DF-2514-401D-AAC5-74324B308E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815CD5DF-2514-401D-AAC5-74324B308E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815CD5DF-2514-401D-AAC5-74324B308E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815CD5DF-2514-401D-AAC5-74324B308E90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
